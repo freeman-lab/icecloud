@@ -1,16 +1,18 @@
 # icecc-ec2
 
-CLI for launching a distributed build server on EC2 (WIP and note yet functional!)
+CLI for launching a distributed build server on EC2 
 
-Intended usage:
+WIP and not yet functional!
 
-launch a cluster with 20 workers
+### Intended usage
+
+launch a cluster with 20 workers:
 
 ```
 icecloud launch chrome-cluster -n 20
 ```
 
-login to scheduler
+login to scheduler:
 
 ```
 icecloud login chrome-cluster

@@ -1,0 +1,35 @@
+{
+  "name": "icecc-ec2",
+  "version": "0.1.0",
+  "description": "Launch distributed build server on EC2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/icecc-ec2.git"
+  },
+  "keywords": [
+    "icecc",
+    "chromium",
+    "build",
+    "compile",
+    "ec2",
+    "aws"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "icecloud": "cli.js"
+  },
+  "author": "Jeremy Freeman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/icecc-ec2/issues"
+  },
+  "homepage": "https://github.com/freeman-lab/icecc-ec2#readme",
+  "dependencies": {
+    "aws-sdk": "^1.0.0",
+    "subcommand": "^2.0.3"
+  }
+}

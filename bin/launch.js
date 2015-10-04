@@ -34,7 +34,7 @@ function launch(args) {
   var worker = {
     ImageId: 'ami-d05e75b8',
     InstanceType: 't1.micro',
-    MinCount: 1, MaxCount: args.workers
+    MinCount: 1, MaxCount: args.workers,
     SecurityGroupIds: name + '-worker'
   };
 

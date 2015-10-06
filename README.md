@@ -1,6 +1,6 @@
 # icecloud
 
-Manage a cluster of nodes for distributed compilation using `icecc`.
+Launch and manage a cluster of nodes for distributed compilation using `icecc`.
 
 WIP and not yet functional!
 

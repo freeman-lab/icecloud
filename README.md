@@ -1,6 +1,6 @@
-# icecc-ec2
+# icecloud
 
-CLI for launching a distributed build server on EC2 
+Manage a cluster of nodes for distributed compilation using `icecc`.
 
 WIP and not yet functional!
 

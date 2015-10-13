@@ -48,7 +48,7 @@ First launch your cluster, the `m3.large` instance type is recommended, as well 
 icecloud launch chromeo -k mykey -n 5 -t m3.large -s 50
 ```
 
-Run the `icecc` setup
+Run the `icecc` setup (as described above)
 
 ```
 icecloud setup chromeo -i mykey.pem 

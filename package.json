@@ -28,7 +28,7 @@
   "homepage": "https://github.com/freeman-lab/icecloud#readme",
   "dependencies": {
     "async": "^1.4.2",
-    "clicloud": "^1.1.2",
-    "tinycloud": "^1.1.2"
+    "clicloud": "^1.1.3",
+    "tinycloud": "^1.1.3"
   }
 }

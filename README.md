@@ -1,6 +1,6 @@
 # icecloud
 
-Launch a compute cluster running [`icecream`](https://github.com/icecc/icecream) for distributed compilation. Built on [`tinycloud`]() and [`clicloud`]().
+Launch a compute cluster running [`icecream`](https://github.com/icecc/icecream) for distributed compilation. Provides a simple CLI for launching and managing the compilation cluster, built on [`tinycloud`]() and [`clicloud`]().
 
 *Note*: This module launches clusters, which can cost real money. It is also still under development. Carefully monitor your usage!
 

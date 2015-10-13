@@ -28,7 +28,7 @@ where `beast` is a name for your cluster, `-k` specifies the name of your key pa
 icecloud setup beast -i mykey.pem
 ```
 
-where `-i` specifies the location of your key pair file. If you get an error during `setup` saying "timed out" or "ECONNREFUSED", just wait a few minutes and try again. This happens because instances take a variable amount of time to become ssh-ready.
+where `-i` specifies the location of your key pair file. If you get an error during `setup` saying `timed out` or `ECONNREFUSED`, just wait a few minutes and try again. This happens because instances take a variable amount of time to become ssh-ready.
 
 Finally, login to the `master` node to run jobs
 

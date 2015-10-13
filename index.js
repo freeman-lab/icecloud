@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 var fs = require('fs')
+var path = require('path')
 var async = require('async')
 var tinycloud = require('tinycloud')
 var clicloud = require('clicloud')
@@ -43,7 +44,7 @@ function setup(input) {
     var ip = instances[0].privateip
 
     function all(next) {
-      var exec = fs.readFileSync('./exec/install.sh')
+      var exec = fs.readFileSync(path.join(__dirname, '.', 'exec', 'install.sh'))
       cloud.execute(null, null, args.keyfile, exec, function(err, data) {
         if (err) return log.error(err)
         next()
@@ -53,7 +54,7 @@ function setup(input) {
     function one(group) {
       return function setup(next) {
         log.message('Setting up ' + group)
-        var exec = fs.readFileSync('./exec/' + group + '.sh')
+        var exec = fs.readFileSync(path.join(__dirname, '.', 'exec', group + '.sh'))
         exec = exec.toString()
           .replace(new RegExp('{NAME}', 'g'), args.builder)
           .replace(new RegExp('{IP}', 'g'), ip)

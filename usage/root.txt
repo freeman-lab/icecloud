@@ -1,1 +1,0 @@
-icecloud <command(s)> [--flag] [--key=value]

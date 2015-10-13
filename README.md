@@ -63,7 +63,7 @@ icecloud login chromeo master -i mykey.pem
 then run the environment setup script (this will take ~30 min)
 
 ```
-curl https://rawgit.com/freeman-lab/icecloud/example/chrome.sh
+curl https://raw.githubusercontent.com/freeman-lab/icecloud/master/examples/chrome.sh >> chrome.sh
 bash chrome.sh
 ```
 
